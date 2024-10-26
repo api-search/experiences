@@ -4,6 +4,8 @@
   description: APIs are difficult to get the proper access to when consumers are applying.
   tags:
     - Solutions
+    - Gateway
+    - GatewayEnvironment
 - name: Alignment
   slug: alignment
   image: "/images/alignment.png"
@@ -12,6 +14,7 @@
   tags:
     - Solutions
   properties:
+    - UseCases
     - Support
     - Forums
     - SupportGitHubIssues
@@ -38,6 +41,7 @@
   tags:
     - Solutions
   properties:
+    - Teams
     - Blogs
     - BlogFeeds
     - Videos  
@@ -49,6 +53,7 @@
   tags:
   - Solutions  
   properties:
+  - OpenAPI
   - Policies
   - OperationalRules
   - ApiRules
@@ -87,8 +92,11 @@
     - Solutions
   properties:
     - Portals
+    - Documentation
     - GettingStarted
     - SDKs
+    - PostmanCollection
+    - StagingEnvironment
 - name: Provenance
   slug: provenance
   image: "/images/provenance.png"
@@ -102,7 +110,9 @@
   description: The quality of APIs is low and doesn't deliver as expected when using
     over time.
   tags:
-  - Solutions
+    - Solutions
+  properties:
+    - GitHubRepository
 - name: Reliability
   slug: reliability
   image: "/images/reliability.png"
@@ -111,8 +121,11 @@
   tags:
     - Solutions
   properties: 
+    - GitHubActions
     - OperationalValidation
+    - Performance
     - APIValidation  
+    - Status
 - name: Money
   slug: money
   image: "/images/revenue.png"
